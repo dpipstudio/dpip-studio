@@ -9,20 +9,23 @@
     <link rel="shortcut icon" href="https://images.dpip.lol/logo.png" type="image/png">
     <link rel="icon" href="https://images.dpip.lol/logo.png" type="image/png">
 
+    <!--=============== FONTS ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css">
 
     <title>DPIP Studio</title>
     <meta property="og:title" content="DPIP Studio">
-    <meta property="og:description"
-        content="Building the future through innovative design and cutting-edge technology. We craft digital experiences that make a difference.">
+    <meta property="og:description" content="Building the future through innovative design and cutting-edge technology. We craft digital experiences that make a difference.">
     <meta property="og:image" content="https://images.dpip.lol/dpip_flag.png">
     <meta property="og:url" content="https://dpip.lol">
     <meta name="theme-color" content="#E2E3E3" />
     <meta property="og:type" content="website" />
     <meta name='keywords' content='dpip, noskid, domains, studio, innovative, tech'>
-    <meta name='description'
-        content='Building the future through innovative design and cutting-edge technology. We craft digital experiences that make a difference.'>
+    <meta name='description' content='Building the future through innovative design and cutting-edge technology. We craft digital experiences that make a difference.'>
     <meta name='subject' content='portfolio'>
     <meta name='copyright' content='dpip.lol'>
     <meta name='language' content='EN'>
@@ -43,100 +46,94 @@
 </head>
 
 <body>
-    <header>
+
+    <!--=============== HEADER ===============-->
+    <header id="header">
         <nav>
-            <a href="/" class="logo"><img src="https://images.dpip.lol/big_logo_dark.png" alt="DPIP Studio" /></a>
+            <a href="/" class="logo">
+                <img src="https://images.dpip.lol/big_logo_dark.png" alt="DPIP Studio" />
+            </a>
             <ul class="nav-links">
                 <li><a href="#top">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
             </ul>
-            <div class="mobile-menu-btn">
+            <div class="mobile-menu-btn" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
         </nav>
     </header>
-    <main>
 
-    <div id="top"/>
+    <!--=============== HERO ===============-->
+    <div id="top"></div>
     <section class="hero">
         <img src="https://images.dpip.lol/dpip_flag.png" alt="DPIP Studio Hero">
-    </section>
-
-    <div class="main">
-        <section class="mission-section" id="about">
-            <div class="mission-header">
-                <h1 class="mission-title">Build, Publish, Repeat !</h1>
-                <p class="mission-description">DPIP Studio is a creative and innovative entity behind ambitious
-                    projects. It serves as a hub for ideation, development, and execution, bringing together a
-                    diverse
-                    range of skills and expertise to deliver high-quality outcomes. At DPIP Studio, we focus on
-                    pushing
-                    boundaries and exploring new frontiers in design, technology, and artistry.</p>
-            </div>
-        </section>
-        <section class="content-section">
-            <div class="section-content">
-                <div class="text-content">
-                    <h2>Crafting Excellence</h2>
-                    <p>We believe in the power of perseverance and in purposeful design. Every project we undertake
-                        is
-                        approached with meticulous attention to detail and a commitment to delivering exceptional
-                        results.</p>
-                    <p>Our philosophy centers around creating meaningful experiences that resonate with your
-                        audience
-                        and drive genuine engagement. We don't just build products; we craft solutions that make a
-                        difference.</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="content-section">
-            <div class="section-content">
-                <div class="text-content">
-                    <h2>Privacy matters</h2>
-                    <p>At DPIP, we handle and store your data exclusively on our own infrastructure. Your
-                        information
-                        never leaves our control.</p>
-                    <p>Our primary server is located in Switzerland, with a secondary server in Germany, ensuring
-                        both
-                        performance and data sovereignty within Europe. Your privacy and security are at the heart
-                        of
-                        everything we do.</p>
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <section class="projects-section" id="projects">
-        <h2 class="projects-title">Our Projects</h2>
-        <div class="projects-container">
-            <div class="projects-scroll" id="projectsContainer">
-                <div class="loading">Loading projects...</div>
+        <div class="hero-overlay">
+            <div class="hero-text">
+                <span class="hero-label">DPIP Studio</span>
+                <p class="hero-tagline">Build,<br>Publish,<br>Repeat.</p>
             </div>
         </div>
     </section>
 
-    <footer>
-        <div class="footer-content">
-            <div class="footer-logo">DPIP Studio</div>
-            <p class="footer-description">
-                Building the future through innovative design and cutting-edge technology.
-                We craft digital experiences that make a difference.
-            </p>
-            <div class="footer-links">
-                <a href="/privacy/">Privacy Policy</a>
-                <a href="/tos/">Terms Of Services</a>
-                <a href="mailto:admin@dpip.lol">Contact</a>
+    <!--=============== MAIN ===============-->
+    <main>
+
+        <!-- About -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <h1 class="about-title">A hub for ideas that ship.</h1>
+                <p class="about-body">DPIP Studio is a creative entity behind ambitious projects — bringing together design, development, and execution to deliver high-quality outcomes. We push boundaries in technology and artistry.</p>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025-2026 DPIP Studio. All rights reserved.</p>
+        </section>
+
+        <!-- Craft -->
+        <section class="text-section">
+            <div class="container">
+                <h2 class="section-title">Purposeful by design.</h2>
+                <p class="section-body">Every project is approached with meticulous attention to detail. We don't just build products — we craft solutions that make a difference.</p>
+            </div>
+        </section>
+
+        <!-- Privacy -->
+        <section class="text-section">
+            <div class="container">
+                <h2 class="section-title">Your data, our servers.</h2>
+                <p class="section-body">We handle and store your data exclusively on our own infrastructure — primary in Switzerland, secondary in Germany. Your privacy is not a policy. It's architecture.</p>
+            </div>
+        </section>
+
+        <!-- Open Source -->
+        <section class="text-section" id="projects">
+            <div class="container">
+                <h2 class="section-title">Open source, by default.</h2>
+                <p class="section-body">Most of what we build is public. We believe in sharing work openly — if something we made is useful to you, use it. Everything lives on GitHub.</p>
+                <a href="https://github.com/dpipstudio" class="gh-link" target="_blank" rel="noopener">View on GitHub ↗</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer>
+        <div class="container footer-inner">
+            <div class="footer-left">
+                <div class="footer-logo">DPIP Studio</div>
+                <p class="footer-sub">Building the future,<br>one project at a time.</p>
+            </div>
+            <div class="footer-right">
+                <nav class="footer-nav">
+                    <a href="/privacy/">Privacy Policy</a>
+                    <a href="/tos/">Terms of Service</a>
+                    <a href="mailto:admin@dpip.lol">Contact</a>
+                </nav>
+                <p class="footer-copy">&copy; 2025–2026 DPIP Studio. All rights reserved.</p>
             </div>
         </div>
     </footer>
-    </main>
+
     <script src="assets/js/main.js"></script>
 </body>
 
